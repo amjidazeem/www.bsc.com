@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baloch Student Council Bahawalpur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Baloch Students Council Punjab Logo" class="logo" />
+      <h1>Baloch Student Council Bahawalpur</h1>
+    </div>
+
+    <nav class="navbar">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+    
+    <section id="about">
+      <h2>About Baloch</h2>
+      <p>
+        Welcome to the official page of <strong>Baloch</strong>, a proud member of the
+        <em>Student Council Bahawalpur</em>. This platform highlights leadership initiatives,
+        student welfare activities, and community development programs that empower youth
+        across Bahawalpur.
+      </p>
+    </section>
+
+    
+    <section id="projects">
+      <h2>Leadership Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Education Drive" />
+          <h3>Education Drive 2025</h3>
+          <p>
+            Organized free workshops and mentorship programs to promote education among underprivileged students.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="Clean Bahawalpur Campaign" />
+          <h3>Clean Bahawalpur Campaign</h3>
+          <p>
+            Led a student team in a citywide cleanup initiative, raising awareness about environmental responsibility.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7" alt="Youth Leadership Forum" />
+          <h3>Youth Leadership Forum</h3>
+          <p>
+            Hosted leadership seminars and networking events to inspire students toward innovation and civic engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <p>Memorable moments from Student Council activities and community events.</p>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Workshop" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1531497865144-0464ef8fb9a4" alt="Meeting" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Conference" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad" alt="Team Activity" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Leadership Event" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754" alt="Community Work" class="gallery-img" />
+      </div>
+
+      
+      <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="" />
+      </div>
+    </section>
+
+    
+    <section id="news">
+      <h2>News & Announcements</h2>
+      <p>Stay updated with the latest happenings and initiatives from the Student Council.</p>
+      <div class="news-grid">
+        <div class="news-card">
+          <span class="date">October 15, 2025</span>
+          <h3>Annual Student Council Elections</h3>
+          <p>
+            Election campaigns are now open! Students are encouraged to nominate themselves for leadership roles.
+          </p>
+        </div>
+
+        <div class="news-card">
+          <span class="date">September 28, 2025</span>
+          <h3>Charity Drive Success</h3>
+          <p>
+            The Student Council successfully raised funds to support local orphanages — thank you to everyone who contributed!
+          </p>
+        </div>
+
+        <div class="news-card">
+          <span class="date">August 10, 2025</span>
+          <h3>Leadership Training Workshop</h3>
+          <p>
+            Baloch led a dynamic workshop focused on communication skills, teamwork, and personal growth for student leaders.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="join">
+      <h2>Join the Student Council</h2>
+      <p>
+        Be part of the change! Fill out the form below to express your interest in joining the Student Council.
+      </p>
+
+      <form id="joinForm" class="join-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="reason">Why do you want to join?</label>
+          <textarea id="reason" name="reason" rows="4" placeholder="Share your motivation..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Have questions or collaboration ideas? Reach out to Baloch and the Student Council team via:
+      </p>
+      <ul class="contact-info">
+        <li>Email: <a href="mailto:bsc@gmail.com">baloch@gmail.com</a></li>
+        <li>Instagram: <a href="#">@.baloch</a></li>
+        <li>Location: Bahawalpur, Pakistan</li>
+      </ul>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>&copy; 2025 Baloch Student Council Bahawalpur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
